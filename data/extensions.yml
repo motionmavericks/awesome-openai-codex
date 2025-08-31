@@ -1,0 +1,20 @@
+- name: Continue (VS Code)
+  link: https://github.com/continuedev/continue
+  description:
+    Open-source autopilot for coding in VS Code and JetBrains. Supports multi-model chat, context,
+    and tool use.
+  tags: [vscode, ide, plugin]
+  badge: '![Stars](https://img.shields.io/github/stars/continuedev/continue?style=social)'
+
+- name: Aider VS Code
+  link: https://marketplace.visualstudio.com/items?itemName=Aider-AI.aider-vscode
+  description:
+    VS Code extension for Aider to drive code changes with LLMs using Git-backed, file-level edits.
+  tags: [vscode, plugin]
+
+- name: Cursor IDE
+  link: https://www.cursor.com/
+  description:
+    AI-native code editor focused on pair programming, refactors, and repo-aware changes powered by
+    LLMs.
+  tags: [ide]

@@ -1,0 +1,26 @@
+name: 'Bug report'
+description: Report an issue with the repository
+labels: ['bug']
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: Provide minimal steps to reproduce
+  - type: input
+    id: version
+    attributes:
+      label: Node/npm versions
+      placeholder: node -v / npm -v
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      render: shell

@@ -1,0 +1,20 @@
+- name: README Generator (YAML → Markdown)
+  link: https://github.com/motionmavericks/awesome-openai-codex/blob/main/scripts/build_readme.mjs
+  description:
+    Data-driven README generation from YAML sources. Ensures consistent formatting, tags, badges,
+    and section structure.
+  tags: [automation, docs]
+
+- name: Awesome Lint CI
+  link: https://github.com/sindresorhus/awesome-lint
+  description:
+    Lints awesome lists in CI for style, structure, and consistency. Integrates with GitHub Actions.
+  tags: [ci, lint]
+  badge: '![Stars](https://img.shields.io/github/stars/sindresorhus/awesome-lint?style=social)'
+
+- name: Prettier Formatting
+  link: https://prettier.io/
+  description:
+    Uniform auto-formatting across Markdown, YAML, and scripts to keep diffs clean and contributor
+    UX smooth.
+  tags: [format, tooling]

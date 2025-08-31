@@ -1,0 +1,21 @@
+name: 'Improvement'
+description: Suggest an improvement to docs, data, or automation
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: What's the improvement and why?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      placeholder: Outline the approach or examples
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      placeholder: Links, prior art, related issues

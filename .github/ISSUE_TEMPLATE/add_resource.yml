@@ -1,0 +1,35 @@
+name: 'Add resource'
+description: Propose a new item for the list
+labels: ['addition']
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Project or resource name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description (≤200 chars)
+      placeholder: Brief, value-focused explanation
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags (comma separated)
+      placeholder: cli, vscode, sdk
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this awesome?
+      placeholder: Objective rationale, uniqueness, maintenance, usefulness

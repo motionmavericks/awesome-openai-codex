@@ -1,0 +1,23 @@
+- name: OpenAI Node.js SDK
+  link: https://github.com/openai/openai-node
+  description:
+    Official Node.js SDK for OpenAI APIs, including text and code models with streaming, retries,
+    and typed responses.
+  tags: [node, sdk]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/openai-node?style=social)'
+
+- name: OpenAI Python SDK
+  link: https://github.com/openai/openai-python
+  description:
+    Official Python client for OpenAI APIs with async support, retries, and type hints for rapid
+    prototyping and production.
+  tags: [python, sdk]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/openai-python?style=social)'
+
+- name: Aider
+  link: https://github.com/paul-gauthier/aider
+  description:
+    AI pair programming in your terminal. Edit code across files using structured diffs and a local
+    Git repo loop.
+  tags: [cli, coding, agent]
+  badge: '![Stars](https://img.shields.io/github/stars/paul-gauthier/aider?style=social)'

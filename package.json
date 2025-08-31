@@ -1,0 +1,36 @@
+{
+  "name": "awesome-openai-codex",
+  "version": "1.0.0",
+  "description": "A curated, data-driven awesome list for building with OpenAI Codex. Generated README, awesome-lint CI, and contributor-friendly templates included.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motionmavericks/awesome-openai-codex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/motionmavericks/awesome-openai-codex/issues"
+  },
+  "homepage": "https://github.com/motionmavericks/awesome-openai-codex#readme",
+  "license": "MIT",
+  "awesome-lint": {
+    "rules": {
+      "awesome/github": "off",
+      "awesome/license": "warn",
+      "awesome/toc": "off",
+      "awesome/list-item": "error",
+      "awesome/badge": "warn"
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build_readme.mjs",
+    "lint": "awesome-lint",
+    "format": "prettier -w .",
+    "check": "prettier -c . && awesome-lint"
+  },
+  "devDependencies": {
+    "awesome-lint": "^1.2.0",
+    "github-slugger": "^2.0.0",
+    "prettier": "^3.6.2",
+    "yaml": "^2.8.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "awesome/github": "off",
+    "awesome/toc": "off",
+    "awesome/list-item": "error",
+    "awesome/license": "warn",
+    "awesome/badge": "warn"
+  }
+}

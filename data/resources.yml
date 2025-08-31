@@ -1,0 +1,19 @@
+- name: OpenAI Cookbook
+  link: https://github.com/openai/openai-cookbook
+  description:
+    Practical guides and examples for using OpenAI APIs effectively, including prompt techniques and
+    app patterns.
+  tags: [guide, examples]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/openai-cookbook?style=social)'
+
+- name: Prompt Engineering Guide
+  link: https://www.promptingguide.ai/
+  description:
+    Comprehensive guide to prompt design patterns, risks, and evaluation strategies across tasks.
+  tags: [prompting, guide]
+
+- name: Papers with Code – LLMs
+  link: https://paperswithcode.com/area/natural-language-processing/large-language-models
+  description:
+    Curated papers, code, and benchmarks related to large language models and applications.
+  tags: [research]

@@ -1,0 +1,23 @@
+- name: OpenDevin
+  link: https://github.com/OpenDevin/OpenDevin
+  description:
+    Open-source dev agent that plans and executes coding tasks with tools, environment control, and
+    iterative reasoning.
+  tags: [agent, devtools]
+  badge: '![Stars](https://img.shields.io/github/stars/OpenDevin/OpenDevin?style=social)'
+
+- name: OpenHands (All-Hands)
+  link: https://github.com/All-Hands-AI/OpenHands
+  description:
+    General-purpose platform for LLM software agents to act in developer environments with tools and
+    memory.
+  tags: [agent, platform]
+  badge: '![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social)'
+
+- name: Open Interpreter
+  link: https://github.com/KillianLucas/open-interpreter
+  description:
+    Natural language to code execution engine with tool use and local execution focus for secure
+    automation.
+  tags: [automation, agent]
+  badge: '![Stars](https://img.shields.io/github/stars/KillianLucas/open-interpreter?style=social)'
