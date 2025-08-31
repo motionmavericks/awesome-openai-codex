@@ -1,0 +1,15 @@
+- name: Codex Cookbook
+  link: https://github.com/openai/codex-cookbook
+  description: Recipes and patterns for solving tasks with Codex.
+  tags: [guide]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/codex-cookbook?style=social)'
+- name: Prompt Engineering Guide
+  link: https://github.com/openai/prompt-guide
+  description: Tips for crafting effective prompts for Codex models.
+  tags: [guide, prompts]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/prompt-guide?style=social)'
+- name: Codex API Examples
+  link: https://github.com/openai/codex-examples
+  description: Example apps demonstrating Codex APIs across languages.
+  tags: [examples]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/codex-examples?style=social)'

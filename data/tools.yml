@@ -1,0 +1,15 @@
+- name: Codex CLI
+  link: https://github.com/openai/codex-cli
+  description: Command-line interface for experimenting with Codex completions.
+  tags: [cli]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/codex-cli?style=social)'
+- name: OpenAI Node SDK
+  link: https://github.com/openai/openai-node
+  description: Official Node.js client for the OpenAI API.
+  tags: [sdk, node]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/openai-node?style=social)'
+- name: OpenAI Python SDK
+  link: https://github.com/openai/openai-python
+  description: Python bindings for interacting with OpenAI models.
+  tags: [sdk, python]
+  badge: '![Stars](https://img.shields.io/github/stars/openai/openai-python?style=social)'

@@ -1,0 +1,32 @@
+name: Add Resource
+description: Suggest a new tool, workflow, or resource
+labels: ['addition']
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Project name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: URL to project
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief value-focused explanation
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: e.g. cli, vscode
+    validations:
+      required: true

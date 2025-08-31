@@ -1,0 +1,18 @@
+name: Bug Report
+description: Report a problem with the list or tooling
+labels: ['bug']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+    validations:
+      required: false
